@@ -15,20 +15,4 @@ public class Triangle extends Shape {
         return (bottom * height) / 2;
     }
 
-
-    public float getBottom() {
-        return bottom;
-    }
-
-    public void setBottom(float bottom) {
-        this.bottom = bottom;
-    }
-
-    public float getHeight() {
-        return height;
-    }
-
-    public void setHeight(float height) {
-        this.height = height;
-    }
 }

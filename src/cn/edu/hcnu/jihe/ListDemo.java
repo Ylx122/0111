@@ -3,6 +3,7 @@ package cn.edu.hcnu.jihe;
 import java.util.ArrayList;
 import java.util.List;
 
+//集合中的List:有序可重复
 public class ListDemo {
     public static void main(String[] args) {
         List list = new ArrayList();

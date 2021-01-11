@@ -1,8 +1,8 @@
-public class Student {
+public class Student extends User {
     private String major;
     private String phone;
 
-    public Student(String major, String phone){
+    public Student(String major, String phone) {
         this.major = major;
         this.phone = phone;
     }
@@ -11,8 +11,24 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "major='" + major + '\'' +
-                "password='" + super.getPassword(0) + '\'' +
+                "password='" + super.getPassword() + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

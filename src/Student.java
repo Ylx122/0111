@@ -3,6 +3,7 @@ public class Student extends User {
     private String phone;
 
     public Student(String major, String phone) {
+        super();
         this.major = major;
         this.phone = phone;
     }
